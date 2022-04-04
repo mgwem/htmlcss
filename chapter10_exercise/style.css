@@ -31,7 +31,7 @@ main {
 .image {
   height: 150px;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .box1 {
@@ -64,7 +64,7 @@ footer {
   background-color: #aaaaaa;
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:768px) {
   main {
     width: 100%;
     display:block;
